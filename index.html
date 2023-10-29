@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="style-dark.css" id="dark-theme">
-        <link rel="stylesheet" href="style-light.css" id="light-theme" disabled>
-        
+    <link rel="stylesheet" href="style-dark.css" id="dark-theme">
+    <link rel="stylesheet" href="style-light.css" id="light-theme" disabled>
+
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -21,169 +21,378 @@
         <div class="nav">
             <div class="left">
                 <h1>Flashcards for Interviews</h1>
-                <p>Help on how to prepare for your Junior Developer position</p>
+                <p>Prepare for your Graduate/Junior Dev position</p>
             </div>
             <div class="right">
                 <button id="theme-toggle">Toggle Theme</button>
             </div>
         </div>
     </header>
-    
-       
 
-                <div class="container">
-                    <div class="row">
-                        <!-- Flash Card 1 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card1">
-                                <div class="front border">
-                                    <h3>OOP</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>A programming paradigm that revolves around the concept of "objects."</p>
-                                </div>
+
+
+    <div class="container">
+        <div class="row">
+            <!-- Flash Card 1 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card1">
+                    <div class="front border">
+                        <h3>OOP</h3>
+                    </div>
+                    <div class="back border">
+                        <p>A programming paradigm that revolves around the concept of "objects."</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 2 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card2">
+                    <div class="front border">
+                        <h3>Encapsulation</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Encapsulation is the bundling of data (attributes or properties) and the methods (functions)
+                            that operate on that data, restricting access to some of the object's components.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 3 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card3">
+                    <div class="front border">
+                        <h3>Inheritance</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Inheritance is the mechanism by which one class can inherit properties (fields and methods)
+                            from another class. The class that inherits is called a subclass, and the class it inherits
+                            from is called a superclass or parent class.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Flash Card 4 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card4">
+                    <div class="front border">
+                        <h3>Polymorphism</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Polymorphism means the ability of a class to take on multiple forms. In OOP, it refers to the
+                            ability of a class to provide different implementations of methods that are inherited from
+                            its parent class or defined in an interface.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 5 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card5">
+                    <div class="front border">
+                        <h3>Abstraction</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Abstraction is the process of hiding the implementation details of an object and exposing
+                            only the relevant features or properties. It focuses on what an object does rather than how
+                            it does it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 6 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card6">
+                    <div class="front border">
+                        <h3>Difference between a class and an interface in TypeScript?</h3>
+                    </div>
+                    <div class="back border">
+                        <p>A class is a blueprint for creating objects. Classes are used for creating instances of
+                            objects, while interfaces are used for defining the structure that objects should have.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Flash Card 7 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card7">
+                    <div class="front border">
+                        <h3>An abstract class in Java</h3>
+                    </div>
+                    <div class="back border">
+                        <p>An abstract class in Java is a class that cannot be instantiated on its own and often serves
+                            as a blueprint for other classes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 8 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card8">
+                    <div class="front border">
+                        <h3>Interface in Java</h3>
+                    </div>
+                    <div class="back border">
+                        <p>An interface is a contract of methods that a class must implement. It allows multiple
+                            inheritance in Java and is used to achieve full abstraction.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 9 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card9">
+                    <div class="front border">
+                        <h3>Array</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Collection of items of the same type stored in an adjacent memory loaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Flash Card 10 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card10">
+                    <div class="front border">
+                        <h3>Data Structures</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Storage format that defines the way data is stored and manipulated.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 11 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card11">
+                    <div class="front border">
+                        <h3>Linked List</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Linear data structure, not necessarily in adjacent format.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flash Card 12 -->
+            <div class="col-sm mb-4">
+                <div class="flashcard" id="card12">
+                    <div class="front border">
+                        <h3>Recursion</h3>
+                    </div>
+                    <div class="back border">
+                        <p>Function calling itself based on a terminating condition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="nav-2">
+            <div class="left">
+                <h2>My Interview Questions:</h2>
+                <p>Questions that were given to me during my Junior interviews</p>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <!-- Flash Card 1 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card1">
+                            <div class="front border">
+                                <h3>What is a Constructor?</h3>
                             </div>
-                        </div>
-            
-                        <!-- Flash Card 2 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card2">
-                                <div class="front border">
-                                    <h3>Encapsulation</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Encapsulation is the bundling of data (attributes or properties) and the methods (functions) that operate on that data, restricting access to some of the object's components.</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <!-- Flash Card 3 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card3">
-                                <div class="front border">
-                                    <h3>Inheritance</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Inheritance is the mechanism by which one class can inherit properties (fields and methods) from another class. The class that inherits is called a subclass, and the class it inherits from is called a superclass or parent class.</p>
-                                </div>
+                            <div class="back border">
+                                <p>A constructor is a special method within a class that is responsible for initializing the object of that class. It is called when an instance of the class is created or "constructed." </p>
                             </div>
                         </div>
                     </div>
-            
-                    <div class="row">
-                        <!-- Flash Card 4 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card4">
-                                <div class="front border">
-                                    <h3>Polymorphism</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Polymorphism means the ability of a class to take on multiple forms. In OOP, it refers to the ability of a class to provide different implementations of methods that are inherited from its parent class or defined in an interface.</p>
-                                </div>
+
+                    <!-- Flash Card 2 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card2">
+                            <div class="front border">
+                                <h3>What is the "static" keyword?</h3>
                             </div>
-                        </div>
-            
-                        <!-- Flash Card 5 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card5">
-                                <div class="front border">
-                                    <h3>Abstraction</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Abstraction is the process of hiding the implementation details of an object and exposing only the relevant features or properties. It focuses on what an object does rather than how it does it.</p>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <!-- Flash Card 6 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card6">
-                                <div class="front border">
-                                    <h3>Difference between a class and an interface in TypeScript?</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>A class is a blueprint for creating objects. Classes are used for creating instances of objects, while interfaces are used for defining the structure that objects should have.</p>
-                                </div>
+                            <div class="back border">
+                                <p>The "static" keyword is useful when you want to create variables or methods that are not tied to specific instances but rather pertain to the entire class.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <!-- Flash Card 7 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card7">
-                                <div class="front border">
-                                    <h3>An abstract class in Java</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>An abstract class in Java is a class that cannot be instantiated on its own and often serves as a blueprint for other classes.</p>
-                                </div>
+                    <!-- Flash Card 3 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card3">
+                            <div class="front border">
+                                <h3>What is the "final" keyword?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>The "final" keyword is used to declare entities that cannot be changed or modified once they are assigned a value. </p>
                             </div>
                         </div>
-            
-                        <!-- Flash Card 8 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card8">
-                                <div class="front border">
-                                    <h3>Interface in Java</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>An interface is a contract of methods that a class must implement. It allows multiple inheritance in Java and is used to achieve full abstraction.</p>
-                                </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Flash Card 4 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card4">
+                            <div class="front border">
+                                <h3>What is a class?</h3>
                             </div>
-                        </div>
-            
-                        <!-- Flash Card 9 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card9">
-                                <div class="front border">
-                                    <h3>Array</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Collection of items of the same type stored in an adjacent memory loaction.</p>
-                                </div>
+                            <div class="back border">
+                                <p>A class is a blueprint or template that defines the structure and behavior of an object. It serves as a blueprint for creating individual objects.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <!-- Flash Card 10 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card10">
-                                <div class="front border">
-                                    <h3>Data Structures</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Storage format that defines the way data is stored and manipulated.</p>
-                                </div>
+                    <!-- Flash Card 5 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card5">
+                            <div class="front border">
+                                <h3>When do you use '==' and '==='</h3>
+                            </div>
+                            <div class="back border">
+                                <p>==: compares the value of the variables. ===: compares the type and value of the variables.</p>
                             </div>
                         </div>
-            
-                        <!-- Flash Card 11 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card11">
-                                <div class="front border">
-                                    <h3>Linked List</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Linear data structure, not necessarily in adjacent format.</p>
-                                </div>
+                    </div>
+
+                    <!-- Flash Card 6 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card6">
+                            <div class="front border">
+                                <h3>How do you keep up with new technologies?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*Your own answer*</p>
                             </div>
                         </div>
-            
-                        <!-- Flash Card 12 -->
-                        <div class="col-sm mb-4">
-                            <div class="flashcard" id="card12">
-                                <div class="front border">
-                                    <h3>Retina display</h3>
-                                </div>
-                                <div class="back border">
-                                    <p>Retina display is a term used by Apple to describe displays that have a higher pixel
-                                        density than traditional displays.</p>
-                                </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Flash Card 7 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card7">
+                            <div class="front border">
+                                <h3>What do you know about this company and why do you want to work here?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*Your own answer*</p>
                             </div>
                         </div>
-                    </div>         
+                    </div>
+
+                    <!-- Flash Card 8 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card8">
+                            <div class="front border">
+                                <h3>How have your projects used OOP?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*Your own answer*</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flash Card 9 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card9">
+                            <div class="front border">
+                                <h3>What inspired you to pursure this technologies?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*Your own answer*</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Flash Card 10 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card10">
+                            <div class="front border">
+                                <h3>How do you approach bugs?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*Your own answer*</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flash Card 11 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card11">
+                            <div class="front border">
+                                <h3>What is your stack?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*programming languages, ie. JavaScript, HTML/CSS*</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flash Card 12 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card12">
+                            <div class="front border">
+                                <h3>What is an object?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>Function calling itself based on a terminating condition.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Flash Card 13 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card13">
+                            <div class="front border">
+                                <h3>What is a method?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>Methods are functions that define the behavior or actions that the object can perform. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flash Card 14 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card14">
+                            <div class="front border">
+                                <h3>What is your stack?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>*programming languages, ie. JavaScript, HTML/CSS*</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flash Card 15 -->
+                    <div class="col-sm mb-4">
+                        <div class="flashcard" id="card15">
+                            <div class="front border">
+                                <h3>What is an object?</h3>
+                            </div>
+                            <div class="back border">
+                                <p>An object is an instance of a class that represents a specific realization of the blueprint defined by that class.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
