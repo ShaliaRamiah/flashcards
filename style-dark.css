@@ -54,7 +54,7 @@ button:hover {
     width: 100%;
     min-height: 300px;
     display: table;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid #ffffff;
     background-color: #000000;
     box-sizing: border-box;
