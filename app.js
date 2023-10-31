@@ -9,8 +9,6 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
 
 $('.back').hide();
 
-//.delay(3000)
-
 $('.front', '.flashcard').hover(function() {
     $(this).hide();
     $(this).siblings('.back').addClass( "animated flipInY fast" ).show();
