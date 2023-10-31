@@ -7,11 +7,13 @@
 body {
     background-color: white;
     color: #000000;
+    text-align: center;
 }
 
 header {
-    background-color: #ffffff;
+    background-color: white;
 }
+
 
 .left {
     display: flex;
@@ -40,14 +42,14 @@ button:hover {
     background-color: rgb(215, 213, 213);
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 40px;
     padding: 20px 0;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .front, .back {
@@ -81,3 +83,4 @@ button:hover {
 .container {
     background-color: white;
 }
+
